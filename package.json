@@ -7,7 +7,7 @@
     "debug": "node-debug --hidden node_modules _mocha --watch",
     "debug-ide": "./bin/debug-ide",
     "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json",
-    "start": "open index.html"
+    "start": "start index.html"
   },
   "repository": {
     "type": "git",
